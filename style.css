@@ -14,8 +14,13 @@ body {
     background: linear-gradient(45deg, #5ec293, rgba(51, 144, 195, 0.267));
 }
 
+/* adding css to navbar */
+.navbar{
+  border-radius:10px;
+}
+/* change the color similar to background of body */
 nav {
-    background-color: #333;
+  background: linear-gradient(45deg, #1384a3, rgba(72, 169, 248, 0.511));
   }
   
   nav ul {
@@ -37,8 +42,10 @@ nav {
     text-decoration: none;
   }
   
+  /* change the background colon on hover similar to background color */
   nav li a:hover {
-    background-color: #111;
+    background-color: #1384a3;
+    border-radius:10px;
   }
 .calculator {
     border: 1px solid rgba(4, 0, 0, 0.4);
