@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Calculator</a></li>
+            <li><a href="#">Simple Interest</a></li>
+            <li><a href="./bodmas.html">BODMAS</a></li>
+            <li><a href="./matrix.html">Matrix</a></li>
+        </ul>
+    </nav>
+    <div class="matrix-calculator">
+        <h2>Matrix Calculator</h2>
+        <label for="rows">Rows:</label>
+        <input type="number" id="rows">
+        <label for="cols">Columns:</label>
+        <input type="number" id="cols">
+        <button onclick="createMatrix()">Create Matrix</button>
+        <div id="matrixInputs"></div>
+        <button onclick="addMatrices()">Add Matrices</button>
+        <button onclick="subtractMatrices()">Subtract Matrices</button>
+        <button onclick="multiplyMatrices()">Multiply Matrices</button>
+        <button onclick="findDeterminant()">Find Determinant</button>
+        <div id="result"></div>
+    </div>
+    <script src="matrix.js"></script>
+</body>
+</html>
+
